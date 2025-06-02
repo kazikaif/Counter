@@ -1,22 +1,42 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: black;
     color: white;
+    height: 100vh;
     display: flex;
     justify-content: center;
-position: absolute;   
-left: 550px;
-top: 200px;
+    align-items: center;
 }
+
 .counter{
     color: white;
-    font-size: 30px;
-}
+    font-size: 40px;
+    margin-bottom: 20px;
+ }
 .container{
     padding: 50px;
     border: 2px solid white;
-    width: 300px;
-    height: 150px;
+    width: 350px;
+    height: 250px;
  text-align: center;
+ padding-top: 0;
+
+}
+.Your{
+    font-size: 20px;
+}
+ button{
+     padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+#btn{
+    padding: 10px;
+}
+#btn1{
+    margin-left: 50px;
+}
+#btn2{
+    margin-top: 15px;
 }
